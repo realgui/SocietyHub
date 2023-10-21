@@ -316,3 +316,30 @@ local Slider = Tabs.Players:AddSlider("Slider", {
         Rounding = 0,
         Callback = function(Value)
            local h
+h = hookmetamethod(game,"__index", function(self, key)
+   if not checkcaller() and self == "Humanoid" and tostring(key) == "WalkSpeed" then
+       return 30
+    end
+    return h(self, key)
+  end)
+        end
+    })
+
+    Slider:OnChanged(function(Value)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
+    end)
+
+Slider:SetValue(30)
+
+Tabs.Players:AddButton({
+    Title = "Infinite Jump",
+    Description = "jump forever",
+    Callback = function()
+      local infjump = true
+game:GetService("UserInputService").JumpRequest:connect(function()
+   if infjump then
+          game.Players.LocalPlayer.Character:FindFirstChildOfClass("Humanoid"):ChangeState("Jumping")
+          end
+          end)
+    end
+})
