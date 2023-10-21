@@ -1,0 +1,318 @@
+local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
+local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
+local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
+
+local Window = Fluent:CreateWindow({
+    Title = "Society Hub",
+    SubTitle = "by Society Leak's",
+    TabWidth = 140,
+    Size = UDim2.fromOffset(540, 400),
+    Acrylic = true,
+    Theme = "Amethyst",
+    MinimizeKey = Enum.KeyCode.LeftControl
+})
+
+local Tabs = {
+    Main = Window:AddTab({ Title = "Main", Icon = "code" }),
+    Players = Window:AddTab({Title = "Player", Icon = "person-standing"}),
+    Combats = Window:AddTab({ Title = "Combat", Icon = "swords" }),
+    Credits = Window:AddTab({ Title = "Credits", Icon = "crown" })
+}
+
+local Options = Fluent.Options
+do
+    Fluent:Notify({
+        Title = "Join on discord!",
+        Content = "https://discord.com/invite/E27E93kNu3",
+        Duration = 9
+    })
+end
+
+Tabs.Main:AddButton({
+        Title = "Auto Parry",
+        Description = "Active AutoParry!",
+        Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/DevTravDYT/dsaaswadfeszad/main/visual/BladeBall'))()
+    end
+    })
+
+Tabs.Main:AddButton({
+        Title = "Spam Parry",
+        Description = "Active autoclick!",
+        Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/realgui/society/main/manualautoclick"))()
+    end
+    })
+
+Tabs.Main:AddButton({
+    Title = "Fps Booster",
+    Description = "Remove all texture increasing your fps",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/realgui/societyfps/main/fpsboost"))()
+    end
+  })
+
+Tabs.Main:AddButton({
+    Title = "Mobile Keyboard",
+    Description = "Active virtual keyboard",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+    end
+    })
+
+Tabs.Combats:AddParagraph({
+        Title = "Auto Parrys",
+        Content = "the best auto-parrys on game!"
+    })
+
+Tabs.Combats:AddButton({
+    Title = "Auto Parry V1",
+    Description = "PC | bad to mobile player",
+    Callback = function()
+getgenv().visualizer = true
+loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/main/RedCircleBlock"))()
+    end
+  })
+
+Tabs.Combats:AddButton({
+    Title = "Bedol Hub",
+    Description = "Mobile & PC | W close-combat",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/3345-c-a-t-s-u-s/-beta-/main/AutoParry.lua"))()
+    end
+  })
+
+Tabs.Combats:AddButton({
+    Title = "Auto Parry V3 (BEST!)",
+    Description = "Mobile & PC support 300ms | auto deflect",
+    Callback = function()
+ getgenv().config = getgenv().config or {
+	hit_time = 0.4,
+	mode = 'Always',
+	deflect_type = 'Remote',
+	notifications = false,
+	keybind = Enum.KeyCode.V
+local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
+local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
+local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
+
+local Window = Fluent:CreateWindow({
+    Title = "Society Hub",
+    SubTitle = "by Society Leak's",
+    TabWidth = 140,
+    Size = UDim2.fromOffset(540, 400),
+    Acrylic = true,
+    Theme = "Amethyst",
+    MinimizeKey = Enum.KeyCode.LeftControl
+})
+
+local Tabs = {
+    Main = Window:AddTab({ Title = "Main", Icon = "code" }),
+    Players = Window:AddTab({Title = "Player", Icon = "person-standing"}),
+    Combats = Window:AddTab({ Title = "Combat", Icon = "swords" }),
+    Credits = Window:AddTab({ Title = "Credits", Icon = "crown" })
+}
+
+local Options = Fluent.Options
+do
+    Fluent:Notify({
+        Title = "Join on discord!",
+        Content = "https://discord.com/invite/E27E93kNu3",
+        Duration = 9
+    })
+end
+
+Tabs.Main:AddButton({
+        Title = "Auto Parry",
+        Description = "Active AutoParry!",
+        Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/DevTravDYT/dsaaswadfeszad/main/visual/BladeBall'))()
+    end
+    })
+
+Tabs.Main:AddButton({
+        Title = "Spam Parry",
+        Description = "Active autoclick!",
+        Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/realgui/society/main/manualautoclick"))()
+    end
+    })
+
+Tabs.Main:AddButton({
+    Title = "Fps Booster",
+    Description = "Remove all texture increasing your fps",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/realgui/societyfps/main/fpsboost"))()
+    end
+  })
+
+Tabs.Main:AddButton({
+    Title = "Mobile Keyboard",
+    Description = "Active virtual keyboard",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+    end
+    })
+
+Tabs.Combats:AddParagraph({
+        Title = "Auto Parrys",
+        Content = "the best auto-parrys on game!"
+    })
+
+Tabs.Combats:AddButton({
+    Title = "Auto Parry V1",
+    Description = "PC | bad to mobile player",
+    Callback = function()
+getgenv().visualizer = true
+loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/main/RedCircleBlock"))()
+    end
+  })
+
+Tabs.Combats:AddButton({
+    Title = "Bedol Hub",
+    Description = "Mobile & PC | W close-combat",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/3345-c-a-t-s-u-s/-beta-/main/AutoParry.lua"))()
+    end
+  })
+
+Tabs.Combats:AddButton({
+    Title = "Auto Parry V3 (BEST!)",
+    Description = "Mobile & PC support 300ms | auto deflect",
+    Callback = function()
+ getgenv().config = getgenv().config or {
+	hit_time = 0.4,
+	mode = 'Always',
+	deflect_type = 'Remote',
+	notifications = false,
+	keybind = Enum.KeyCode.V
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/Refinement/main/MC%3ABlade%20Ball%20Parry%20V4.0.0",true))()
+    end
+  })
+
+Tabs.Combats:AddButton({
+    Title = "Ln Hub V3 (INSANE OPTIONS)",
+    Description = "Mobile & PC | Infinite Skill",
+    Callback = function()
+loadstring(game:HttpGet("https://scriptblox.com/raw/Blade-Ball-Ln-Hub-V3-Updated-8220"))()
+    end
+})
+
+Tabs.Combats:AddButton({
+    Title = "Fuji Hub",
+    Description = "Mobile & PC | good script",
+    Callback = function()
+loadstring(game:HttpGet("https://shz.al/~main/dread/Fuji-Hub/script"))()
+    end
+})
+
+Tabs.Combats:AddButton({
+    Title = "Spam Parry V2",
+    Description = "Hold The Parry Button For Spam!",
+    Callback = function()
+getgenv().SpamSpeed = 1
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/Refinement/main/MC%3ABlade%20Ball%20Spam",true))()
+    end
+  })
+
+Tabs.Credits:AddParagraph ({
+    Title = "Made by gui",
+    Content = "Society Hub"
+})
+
+Tabs.Credits:AddButton({
+    Title = "Join The Discord (click here to copy invite)",
+    Description = "join aware the update of Society Hub!",
+    Callback = function()
+setclipboard("https://discord.com/invite/E27E93kNu3")
+    end
+})
+
+local Slider = Tabs.Players:AddSlider("Slider", {
+        Title = "Walkspeed",
+        Description = "change your walkspeed",
+        Default = 30,
+        Min = 30,
+        Max = 300,
+        Rounding = 0,
+        Callback = function(Value)
+           local h
+h = hookmetamethod(game,"__index", function(self, key)
+   if not checkcaller() and self == "Humanoid" and tostring(key) == "WalkSpeed" then
+       return 30
+    end
+    return h(self, key)
+  end)
+        end
+    })
+
+    Slider:OnChanged(function(Value)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
+    end)
+
+    Slider:SetValue(30)
+
+Tabs.Players:AddButton({
+    Title = "Infinite Jump",
+    Description = "jump forever",
+    Callback = function()
+      local infjump = true
+game:GetService("UserInputService").JumpRequest:connect(function()
+   if infjump then
+          game.Players.LocalPlayer.Character:FindFirstChildOfClass("Humanoid"):ChangeState("Jumping")
+          end
+          end)
+    end
+})￼Enter}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/Refinement/main/MC%3ABlade%20Ball%20Parry%20V4.0.0",true))()
+    end
+  })
+
+Tabs.Combats:AddButton({
+    Title = "Ln Hub V3 (INSANE OPTIONS)",
+    Description = "Mobile & PC | Infinite Skill",
+    Callback = function()
+loadstring(game:HttpGet("https://scriptblox.com/raw/Blade-Ball-Ln-Hub-V3-Updated-8220"))()
+    end
+})
+
+Tabs.Combats:AddButton({
+    Title = "Fuji Hub",
+    Description = "Mobile & PC | good script",
+    Callback = function()
+loadstring(game:HttpGet("https://shz.al/~main/dread/Fuji-Hub/script"))()
+    end
+})
+
+Tabs.Combats:AddButton({
+    Title = "Spam Parry V2",
+    Description = "Hold The Parry Button For Spam!",
+    Callback = function()
+getgenv().SpamSpeed = 1
+ring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/Refinement/main/MC%3ABlade%20Ball%20Spam",true))()
+    end
+  })
+
+Tabs.Credits:AddParagraph ({
+    Title = "Made by gui",
+    Content = "Society Hub"
+})
+
+Tabs.Credits:AddButton({
+    Title = "Join The Discord (click here to copy invite)",
+    Description = "join aware the update of Society Hub!",
+    Callback = function()
+setclipboard("https://discord.com/invite/E27E93kNu3")
+    end
+})
+
+local Slider = Tabs.Players:AddSlider("Slider", {
+        Title = "Walkspeed",
+        Description = "change your walkspeed",
+        Default = 30,
+        Min = 30,
+        Max = 300,
+        Rounding = 0,
+        Callback = function(Value)
+           local h
